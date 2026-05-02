@@ -1,0 +1,38 @@
+{
+  "name": "youtube-control-center",
+  "description": "A powerful extension to control and enhance YouTube, YouTube Music",
+  "private": true,
+  "version": "0.1.0",
+  "author": "Gaurav Yadav",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "build:edge": "wxt build -b edge",
+    "build:all": "npm run build && npm run build:firefox && npm run build:edge",
+    "zip": "wxt zip",
+    "zip:firefox": "wxt zip -b firefox",
+    "zip:edge": "wxt zip -b edge",
+    "zip:all": "npm run zip && npm run zip:firefox && npm run zip:edge",
+    "compile": "tsc --noEmit",
+    "postinstall": "wxt prepare"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.2.4",
+    "@webext-core/messaging": "^2.3.0",
+    "lucide-react": "^1.14.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tailwindcss": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@wxt-dev/module-react": "^1.1.5",
+    "typescript": "^5.9.3",
+    "wxt": "^0.20.25"
+  }
+}

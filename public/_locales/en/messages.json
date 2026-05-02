@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "Youtube Control Center",
+    "description": "The name of the extension"
+  },
+  "extensionDescription": {
+    "message": "A powerful extension to control and enhance YouTube",
+    "description": "The description of the extension"
+  },
+  "active": {
+    "message": "Active",
+    "description": "Status text for when extension is enabled"
+  },
+  "disabled": {
+    "message": "Disabled",
+    "description": "Status text for when extension is disabled"
+  },
+  "loading": {
+    "message": "Loading...",
+    "description": "Loading state text"
+  },
+  "quality": {
+    "message": "Quality",
+    "description": "Section title for Quality"
+  },
+  "resolution": {
+    "message": "Resolution",
+    "description": "Label for resolution selection"
+  },
+  "enhancedQuality": {
+    "message": "Enhanced Quality",
+    "description": "Section title for Enhanced Quality"
+  },
+  "superResolution": {
+    "message": "Super Resolution",
+    "description": "Label for Super Resolution feature"
+  },
+  "superResolutionDesc": {
+    "message": "Always pick highest quality",
+    "description": "Description for Super Resolution"
+  },
+  "enhancedBitrate": {
+    "message": "Enhanced Bitrate",
+    "description": "Label for Enhanced Bitrate feature"
+  },
+  "enhancedBitrateDesc": {
+    "message": "Prefer premium quality",
+    "description": "Description for Enhanced Bitrate"
+  },
+  "player": {
+    "message": "Player",
+    "description": "Section title for Player"
+  },
+  "autoResize": {
+    "message": "Auto-Resize",
+    "description": "Label for Auto-Resize feature"
+  },
+  "autoResizeDesc": {
+    "message": "Auto-switch player layout",
+    "description": "Description for Auto-Resize"
+  },
+  "cinemaMode": {
+    "message": "Cinema Mode",
+    "description": "Button text for Cinema Mode"
+  },
+  "defaultMode": {
+    "message": "Default",
+    "description": "Button text for Default Mode"
+  },
+  "experience": {
+    "message": "Experience",
+    "description": "Section title for Experience"
+  },
+  "forceOriginalAudio": {
+    "message": "Force Original Audio",
+    "description": "Label for Force Original Audio feature"
+  },
+  "forceOriginalAudioDesc": {
+    "message": "Prevent auto-dubbing",
+    "description": "Description for Force Original Audio"
+  },
+  "stickyVideo": {
+    "message": "Sticky Video",
+    "description": "Label for Sticky Video feature"
+  },
+  "stickyVideoDesc": {
+    "message": "Fix player, scroll sidebar",
+    "description": "Description for Sticky Video"
+  },
+  "hideShorts": {
+    "message": "Hide Shorts",
+    "description": "Label for Hide Shorts feature"
+  },
+  "hideShortsDesc": {
+    "message": "Remove Shorts shelves/tabs",
+    "description": "Description for Hide Shorts"
+  }
+}

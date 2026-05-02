@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+/* Configure class-based dark mode for Tailwind 4 */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-brand: #FF0000;
+  --color-brand-muted: rgba(255, 0, 0, 0.1);
+  --color-brand-glow: rgba(255, 0, 0, 0.2);
+  
+  --color-surface-50: #ffffff;
+  --color-surface-100: #f4f4f5;
+  --color-surface-200: #e4e4e7;
+  --color-surface-800: #27272a;
+  --color-surface-900: #18181b;
+  --color-surface-950: #0f0f0f;
+}
+
+:root {
+  --font-sans: 'Outfit', 'Inter', ui-sans-serif, system-ui;
+}
+
+body {
+  font-family: var(--font-sans);
+  @apply bg-surface-50 text-zinc-900 transition-colors duration-300;
+}
+
+.dark body {
+  @apply bg-surface-950 text-zinc-100;
+}
+
+/* Glassmorphism */
+.glass {
+  @apply bg-surface-50/70 backdrop-blur-md border border-surface-50/20;
+}
+
+.dark .glass {
+  @apply bg-surface-900/70 backdrop-blur-md border border-surface-800/50;
+}
+
+/* Premium Shadows */
+.shadow-premium {
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.1);
+}
+
+.dark .shadow-premium {
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+}
+
+/* Custom UI utilities */
+.tab-active {
+  @apply text-brand relative after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-brand after:rounded-full after:shadow-[0_0_8px_var(--color-brand)];
+}
+
+.tab-inactive {
+  @apply text-zinc-400 hover:text-zinc-600 dark:hover:text-zinc-200 transition-all duration-200;
+}
+
+/* Custom Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-zinc-300 dark:bg-zinc-700 rounded-full;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  @apply bg-zinc-400 dark:bg-zinc-600;
+}

@@ -1,0 +1,37 @@
+YOUTUBE CONTROL CENTER - WEB STORE DESCRIPTION
+
+TAGLINE:
+The ultimate extension to enhance and control your YouTube experience with high-quality video, player optimizations, and a distraction-free layout.
+
+DESCRIPTION:
+Take full control of your YouTube experience with Youtube Control Center. Tired of low-resolution videos, distracting Shorts, or auto-dubbed audio? This powerful, lightweight extension is designed to give you the most premium, high-quality, and personalized viewing experience possible.
+
+Whether you are a cinephile wanting the highest bitrate or a casual viewer looking to declutter your feed, Youtube Control Center has you covered.
+
+KEY FEATURES:
+
+* Super Resolution & Quality Lock: Never settle for blurry videos. Set your preferred resolution (up to 4K/8K) and ensure you always get the highest quality available instantly.
+
+* Enhanced Bitrate: Unlock the best possible visual fidelity by prioritizing premium bitrate streams. Enjoy sharper details and smoother motion on every video.
+
+* Advanced Player Layouts: Switch between Cinema Mode and Default view automatically. Our Auto-Resize feature optimizes the player layout for your screen size.
+
+* Force Original Audio: Stop YouTube from automatically playing dubbed versions of videos. Always hear the original audio track exactly as the creator intended.
+
+* Sticky Video Player: Keep the video in view even while you scroll! The Sticky Video feature fixes the player at the top while allowing you to browse the sidebar videos list effortlessly.
+
+* Hide YouTube Shorts: Declutter your feed by removing Shorts shelves and tabs. Focus on the content you love without vertical distractions.
+
+* Modern UI with Dark Mode: A stunning, premium interface that fits perfectly with modern web design. Toggle between Light and Dark modes to suit your viewing environment.
+
+WHY CHOOSE YOUTUBE CONTROL CENTER?
+
+* Performance First: Built with modern web technologies to ensure zero lag and minimal resource usage.
+
+* Privacy Focused: We respect your privacy. No data tracking, no analytics, just pure functionality.
+
+* Intuitive Design: A simple, beautiful popup menu allows you to toggle features on and off with ease.
+
+KEYWORDS:
+YouTube Control, YouTube Quality, High Definition, Block Shorts, Cinema Mode, YouTube Enhancer, Sticky Player, YouTube Audio, Original Audio, Video Resolution, 4K YouTube, YouTube Bitrate, YouTube Experience.
+
