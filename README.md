@@ -15,6 +15,20 @@
 </p>
 
 <p align="center">
+  <a href="https://microsoftedge.microsoft.com/addons/detail/mgjlheknceiciijjgkghihbbmkdnpicd" style="text-decoration: none;">
+    <img src="assets/English_Get it from Microsoft Edge.png" height="40" alt="Edge Addons" />
+  </a>
+  &nbsp;
+  <a href="https://chromewebstore.google.com/detail/maiaaoijhfjogfkpbdgigofkljejnpji" style="text-decoration: none;">
+    <img src="assets/chrome-webstore.png" height="40" alt="Chrome Web Store" />
+  </a>
+  &nbsp;
+  <a href="https://addons.mozilla.org/en-US/firefox/addon/youtube-control-center-ytcc/" style="text-decoration: none;">
+    <img src="assets/get-the-addon-firefox.webp" height="40" alt="Firefox Addons" />
+  </a>
+</p>
+
+<p align="center">
   <img src="assets/ss1.png" width="320" alt="Youtube Control Center Popup Light" />
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="assets/ss2.png" width="320" alt="Youtube Control Center Popup Dark" />
@@ -42,15 +56,18 @@
 ## 🚀 Development & Build
 
 ### Prerequisites
+
 - Node.js (Latest LTS recommended)
 - npm
 
 ### Installation
+
 ```bash
 npm install
 ```
 
 ### Development
+
 ```bash
 # Start development server for Chrome
 npm run dev
@@ -60,12 +77,15 @@ npm run dev:firefox
 ```
 
 ### Build for Production
+
 Build for all supported browsers (Chrome, Edge, Firefox):
+
 ```bash
 npm run build:all
 ```
 
 To create zip files for distribution:
+
 ```bash
 npm run zip:all
 ```
@@ -73,6 +93,7 @@ npm run zip:all
 ## 📚 Documentation
 
 For more information on contributing or understanding the project internals, please refer to:
+
 - [Contributing Guide](CONTRIBUTING.md): Guidelines for submitting bugs and feature requests.
 - [Project Structure](docs/structure.md): Breakdown of the codebase and file organization.
 - [Permissions](docs/permissions.md): Detailed explanation of required browser permissions.
