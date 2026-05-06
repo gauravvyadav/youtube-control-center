@@ -2,7 +2,7 @@
   "name": "youtube-control-center",
   "description": "A powerful extension to control and enhance YouTube, YouTube Music",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Gaurav Yadav",
   "license": "MIT",
   "type": "module",
