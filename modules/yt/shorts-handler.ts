@@ -28,10 +28,14 @@ export async function sendQualityToMainWorld() {
   const forceOriginal = await storage.getItem<boolean>('local:forceOriginalAudio', {
     fallback: false
   });
+  const isEnhancedBitrate = await storage.getItem<boolean>('local:isEnhancedBitrate', {
+    fallback: false
+  });
 
   void shortsMessenger.sendMessage(PlayerMessage.APPLY_QUALITY, {
     quality: quality ?? null,
-    isSuperResolution: isSuperResolution ?? false
+    isSuperResolution: isSuperResolution ?? false,
+    isEnhancedBitrate: isEnhancedBitrate ?? false
   });
   void shortsMessenger.sendMessage(PlayerMessage.APPLY_AUDIO, {
     forceOriginal: forceOriginal ?? false

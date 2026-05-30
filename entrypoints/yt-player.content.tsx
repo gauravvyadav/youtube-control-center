@@ -12,6 +12,7 @@ import { embedMessenger, PlayerMessage, shortsMessenger, ytMessenger } from '@/l
  */
 export default defineContentScript({
   matches: ['*://*.youtube.com/*', '*://youtube.com/*', '*://*.youtube-nocookie.com/*', '*://youtube-nocookie.com/*', '*://youtube.googleapis.com/*'],
+  excludeMatches: ['*://music.youtube.com/*'],
   allFrames: true,
   world: 'MAIN',
   runAt: 'document_start',

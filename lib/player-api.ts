@@ -262,6 +262,10 @@ export function forceOriginalAudioTrack(forceOriginal: boolean, retryCount = 0) 
       (currentTrack.languageCode && currentTrack.languageCode === originalTrack.languageCode)
     );
 
+    if (isAlreadyOriginal) {
+      return;
+    }
+
     try {
       lastVideoId = currentId;
       lastAudioAppliedTime = now;

@@ -5,7 +5,8 @@ import { getIsExtensionEnabled, getVisibleElement, SELECTORS } from '@/lib/utils
 function sendQualityToMainWorld() {
   void embedMessenger.sendMessage(PlayerMessage.APPLY_QUALITY, {
     quality: window.ytccLastUserQuality ?? null,
-    isSuperResolution: window.ytccIsUseSuperResolution ?? false
+    isSuperResolution: window.ytccIsUseSuperResolution ?? false,
+    isEnhancedBitrate: window.ytccIsEnhancedBitrate ?? false
   });
 }
 
@@ -42,6 +43,7 @@ async function checkAndSendQuality(elVideo: HTMLVideoElement) {
 
 export default defineContentScript({
   matches: ['*://*.youtube.com/*', '*://*.youtube-nocookie.com/*'],
+  excludeMatches: ['*://music.youtube.com/*'],
   includeGlobs: ['*://*.youtube.com/embed/*', '*://*.youtube-nocookie.com/embed/*'],
   allFrames: true,
   runAt: 'document_start',

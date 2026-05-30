@@ -84,6 +84,7 @@ async function initPlayerResize() {
 
 export default defineContentScript({
   matches: ['*://*.youtube.com/*', '*://youtube.com/*'],
+  excludeMatches: ['*://music.youtube.com/*'],
   runAt: 'document_start',
   main: () => initPlayerResize()
 });

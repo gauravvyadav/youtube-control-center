@@ -25,6 +25,7 @@ async function init() {
 
 export default defineContentScript({
   matches: ['*://*.youtube.com/*', '*://youtube.com/*'],
+  excludeMatches: ['*://music.youtube.com/*'],
   runAt: 'document_start',
   main: () => init()
 });
