@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.2] - 2026-05-31
+
 ### Fixed
 - Exclude YouTube Music (`music.youtube.com`) from running content scripts, resolving the split screen / layout cutting in half issue.
 - Fix TypeScript type checking mismatch errors in `yt-embed.content.tsx` and `shorts-handler.ts` by ensuring the required `isEnhancedBitrate` field is passed correctly to the `PlayerMessage.APPLY_QUALITY` messenger payload.
